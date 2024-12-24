@@ -16,3 +16,22 @@ pyenv global 3.12.3
 ```sh
 python -m pip install poetry
 ```
+
+## Activate virtual environment
+
+```sh
+python -m poetry shell
+```
+
+## Install packages
+
+```sh
+poetry install
+```
+
+## ruff
+
+```sh
+python -m ruff format
+python -m ruff check
+```
