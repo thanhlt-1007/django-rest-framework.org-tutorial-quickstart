@@ -29,6 +29,18 @@ python -m poetry shell
 poetry install
 ```
 
+## Run migrations
+
+```sh
+python manage.py migrate
+```
+
+## Run server
+
+```sh
+python manage.py runserver
+```
+
 ## ruff
 
 ```sh
