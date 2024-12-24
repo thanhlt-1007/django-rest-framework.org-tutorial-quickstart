@@ -35,6 +35,12 @@ poetry install
 python manage.py migrate
 ```
 
+## Run migrations
+
+```sh
+python manage.py createsuperuser --username admin --email admin@example.com
+```
+
 ## Run server
 
 ```sh
